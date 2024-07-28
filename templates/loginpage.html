@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://www.workitdaily.com/media-library/employee-takes-part-in-his-company-s-community-service-volunteer-day.jpg?id=22510611&width=980");
+            background-size: cover;
+            background-position: center aligned;
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0.8);
+            justify-content: center;
+            overflow: hidden;
+            display: flex;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        input[type="text"],
+        input[type="password"],
+        button {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px 0;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+        }
+        #output,
+        #outputScholar {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .or-divider {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .or-divider span {
+            color: red;
+        }
+        .image-box {
+            height: 100px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        .image-box img {
+            width: 100px;
+            height: 100px;
+            object-fit: fill;
+            border-radius: 1px;
+        }
+        .mybrologin{
+            float: center;
+            position: relative;
+            margin-top: 11%;
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>    Community Service Portal</h1>
+        <div class="mybrologin">
+        <form action="#" method="POST">
+            <center>
+                <h3><label for="username"><font color="white">Username</font></label><br>
+                <input type="text" id="username" name="username" required> <br>
+                <!-- <h3><label for="username"><font color="white">Email</font></label><br> -->
+                    <!-- <input type="text" id="username" name="Email" required> <br> -->
+                <label for="password"><font color="white">Password:</font></label><br>
+                <input type="password" id="password" name="password" required> <br>
+               
+                <button type="submit">Login</button>
+            </center>
+        </form>
+        </div>
+        <div id="output"></div>
+        <div id="outputScholar"></div>
+    
+        <div class="or-divider">
+        </div>
+    </center>
+    
+</body>
+</html>
